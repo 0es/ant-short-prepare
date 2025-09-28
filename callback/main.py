@@ -63,6 +63,6 @@ if __name__ == "__main__":
     print("Starting HTTP Callback Service...")
     print("Callback endpoint: POST /callback")
     print("Health check: GET /health")
-    print("Server running on http://0.0.0.0:5000")
+    print("Server running on http://0.0.0.0:8080")
 
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=8080, debug=True)
