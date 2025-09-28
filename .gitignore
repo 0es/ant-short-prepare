@@ -1,0 +1,5 @@
+.env
+.venv
+
+subtitle/assets
+subtitle/subtitle.json
