@@ -1,1 +1,4 @@
 Flask==3.0.0
+cos-python-sdk-v5
+python-dotenv
+requests
