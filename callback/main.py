@@ -3,7 +3,7 @@ import json
 import logging
 import os
 from datetime import datetime
-from .cos import process_video_files
+from cos import process_video_files
 
 app = Flask(__name__)
 

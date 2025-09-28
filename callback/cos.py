@@ -5,7 +5,7 @@ import os
 import logging
 from dotenv import load_dotenv
 
-load_dotenv("../.env")
+load_dotenv(f"{os.path.dirname(__file__)}/../.env")
 
 # Setup logger for cos operations
 cos_logger = logging.getLogger("cos")

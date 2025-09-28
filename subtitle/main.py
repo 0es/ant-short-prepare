@@ -14,7 +14,7 @@ from tencentcloud.common.exception.tencent_cloud_sdk_exception import (
 from tencentcloud.vod.v20180717 import vod_client, models
 from dotenv import load_dotenv
 
-load_dotenv("../.env")
+load_dotenv(f"{os.path.dirname(__file__)}/../.env")
 
 
 def get_language_from_filename(filename):

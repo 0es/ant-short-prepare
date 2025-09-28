@@ -6,3 +6,5 @@ subtitle/subtitle.json
 
 callback/log
 callback/cb.json
+
+__pycache__
