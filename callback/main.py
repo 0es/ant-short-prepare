@@ -76,6 +76,10 @@ def callback():
                     original_object = cos_input_info.get("Object", "")
 
                     if original_object:
+                        # Remove leading slash if present
+                        if original_object.startswith("/"):
+                            original_object = original_object[1:]
+
                         # Remove .mp4 extension to get the key
                         original_key = (
                             original_object.replace(".mp4", "")
